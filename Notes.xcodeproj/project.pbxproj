@@ -13,6 +13,8 @@
 		380F66B52C3FC4A9001770F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 380F66B42C3FC4A9001770F6 /* Base */; };
 		380F66B72C3FC4AA001770F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 380F66B62C3FC4AA001770F6 /* Assets.xcassets */; };
 		380F66BA2C3FC4AA001770F6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 380F66B92C3FC4AA001770F6 /* Base */; };
+		380F66C22C3FC5DE001770F6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F66C12C3FC5DE001770F6 /* Note.swift */; };
+		380F66C42C3FDCF7001770F6 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380F66C32C3FDCF7001770F6 /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		380F66B62C3FC4AA001770F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		380F66B92C3FC4AA001770F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		380F66BB2C3FC4AA001770F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		380F66C12C3FC5DE001770F6 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		380F66C32C3FDCF7001770F6 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				380F66B62C3FC4AA001770F6 /* Assets.xcassets */,
 				380F66B82C3FC4AA001770F6 /* LaunchScreen.storyboard */,
 				380F66BB2C3FC4AA001770F6 /* Info.plist */,
+				380F66C12C3FC5DE001770F6 /* Note.swift */,
+				380F66C32C3FDCF7001770F6 /* NoteViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				380F66B22C3FC4A9001770F6 /* ViewController.swift in Sources */,
 				380F66AE2C3FC4A9001770F6 /* AppDelegate.swift in Sources */,
 				380F66B02C3FC4A9001770F6 /* SceneDelegate.swift in Sources */,
+				380F66C42C3FDCF7001770F6 /* NoteViewController.swift in Sources */,
+				380F66C22C3FC5DE001770F6 /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
